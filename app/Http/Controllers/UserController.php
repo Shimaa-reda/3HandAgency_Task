@@ -17,13 +17,9 @@ class UserController extends Controller
 // }
   public function index()
     {
-        // Users الافتراضيين
-        $defaultUsers = [
-            ['name' => 'Alice', 'email' => 'alice@example.com'],
-            ['name' => 'Bob', 'email' => 'bob@example.com'],
-        ];
-
        
+
+
 
         // نجيب كل الـ users من الداتابيز
         $users = User::all();
