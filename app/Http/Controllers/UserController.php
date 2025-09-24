@@ -10,18 +10,14 @@ class UserController extends Controller
 {
 
 
-//     public function index()
-// {
-//     $users = User::all();
-//     return view('users', compact('users'));
-// }
+
   public function index()
     {
+
+
+
+
        
-
-
-
-        // نجيب كل الـ users من الداتابيز
         $users = User::all();
 
         return view('users', compact('users'));
