@@ -16,6 +16,7 @@ class UserController extends Controller
     return view('users', compact('users'));
 }
 
+
     public function store(Request $request)
     {
         $request->validate([
